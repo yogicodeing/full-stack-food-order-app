@@ -1,0 +1,97 @@
+.cartContainer{
+    /* background-color: rgb(223, 255, 237); */
+    background-color: #44318D;
+    min-height: 100vh;
+}
+.heads{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 70px;
+}
+.addProducts{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.cartcon{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 10px 10px;
+    /* background-color: white; */
+    background-color: #2A1B3D;
+    position: relative;
+}
+
+.cartName{
+  font-size: 20px;
+  color:white;
+
+  font-weight: bold;
+}
+.cartPrice{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.addBtnRemove{
+   background-color: white;
+   color: #2A1B3D;
+   margin-left: 100px;
+   padding: 3px 10px;
+   border: none;
+   position: absolute;
+   top:353px;
+   left: 100px;
+}
+.addBtnRemove:hover{
+    background-color: #802;
+    color: white;
+    border: none;
+    outline: none;
+}
+.varis1{
+    /* background-color: white; */
+    background-color: #2A1B3D;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 500px;
+}
+.bill{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+
+}
+.totalPr{
+ color: #E3E2Df;
+ font-weight: bold;
+ font-size: 20px;
+}
+.subtotal, .delivery, .tot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colorPrice{
+    color: #E3E2Df;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.payNow{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    padding: 5px 0;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+.payNow:hover{
+    background-color:#44318D;
+    color:white
+}

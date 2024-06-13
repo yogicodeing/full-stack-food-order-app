@@ -1,0 +1,72 @@
+.navbarContainer{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    z-index:1;
+ 
+}
+
+.navbarSubContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarSubContainer a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cartAndLoginLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+.cartlogin{
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginandLogOut{
+    position: relative;
+
+}
+.orderAndLogOut{
+    display: none;
+}
+.loginandLogOut:hover .orderAndLogOut{
+    display: block;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 100px;
+    right: 1px;
+}
+.cartIconsText a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.yu{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.downIcons{
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 14px;
+}

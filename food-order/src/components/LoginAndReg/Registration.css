@@ -1,0 +1,46 @@
+.regContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("../../assets/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.regSubContainer{
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(245, 244, 244, 0.432) 0px 54px 55px, rgba(240, 240, 240, 0.404) 0px -12px 30px, rgba(233, 233, 233, 0.479) 0px 4px 6px, rgba(221, 221, 221, 0.493) 0px 12px 13px, rgba(236, 236, 236, 0.548) 0px -3px 5px;
+}
+.regHead{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+}
+.inputFromUser{
+    width: 350px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 5px;
+    border-color: rgba(128, 128, 128, 0.158);
+    outline: none;
+}
+.submitBtn{
+    border: none;
+    background-color: rgb(17, 21, 241);
+    color: white;
+    padding: 6px 0px;
+    width: 100%;
+    margin-top:15px;
+    cursor: pointer;
+}
+.moveToLogin{
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(128, 128, 128, 0.26);
+    padding-top: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,127 @@
+.pizzaCartContainer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 3px;
+}
+.pizzaName{
+    text-align: left;
+    font-weight: bold;
+}
+.pizzImage{
+    width: 250px;
+    /* border-radius: 10px; */
+    margin-top: 8px;
+    cursor: pointer;
+}
+.categoryAndQty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    padding-bottom: 10px;
+   
+}
+.cateQty{
+    width: 50%;
+    margin: 3px;
+}
+.cateQty span{
+    font-weight: bold;
+    text-align: center;
+}
+.selectedContant{
+    width: 100%;
+    padding:2px;
+    border-color: gray;
+    border-radius: 3px;
+    border-width: 2px;
+    margin-top: 5px;
+    
+}
+
+.priceAndAddtocart{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.price{
+    font-weight: bold;
+}
+
+.addToCart{
+    background-color: orangered;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* single Product Show  */
+.productShows{
+    position: fixed;
+    top: 0;
+}
+.currentProductContainer{
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.currenSubContainer{
+    background-color: white;
+    padding: 20px 10px; 
+    width: 250px;
+    position: relative;
+}
+.cName{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align: center;
+     border-bottom-width: 1px;
+    border-bottom-color: rgba(128, 128, 128, 0.562);
+    margin-bottom: 10px; 
+    border-bottom-style: solid;
+
+}
+.cImage{
+    width: 250px;
+    padding: 10px 0;
+}
+.cDis{
+    font-weight: bold;
+    color: black;
+}
+.close{
+    cursor: pointer;
+    background-color: orangered;
+    width: fit-content;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 178px;
+    margin-top: 15px;
+}
+.closeIcons{
+  position: absolute;
+  left: 245px;
+  top: 8px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.closeIcons:hover{
+ background-color: red;
+ color: white;
+}
